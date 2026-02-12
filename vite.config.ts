@@ -13,6 +13,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/arcane-codex/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
