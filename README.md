@@ -105,12 +105,6 @@ Clone the repo, then:
 npm install
 ```
 
-Create `.env.local` with:
-
-```
-VITE_API_BASE_URL=https://www.dnd5eapi.co
-```
-
 Run the app:
 
 ```bash
