@@ -8,7 +8,7 @@ import { QueryClientProvider, } from '@tanstack/react-query'
 import "./libs/locales/i18n";
 import queryClient from './configs/queryClient'
 
-const router = createRouter({ routeTree })
+const router = createRouter({ routeTree, basepath: '/arcane-codex' })
 
 declare module '@tanstack/react-router' {
   interface Register {
